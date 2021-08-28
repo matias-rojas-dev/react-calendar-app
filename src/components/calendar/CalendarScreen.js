@@ -18,7 +18,7 @@ moment.locale('es')
 const events = [{
     title: 'Cumpleaños del jefe',
     start: moment().toDate(),
-    end: moment().add(3, 'hours').toDate(),
+    end: moment().add(1, 'hours').toDate(),
     bgcolor: '#fafafa',
     notes: 'Hola',
     user: {
